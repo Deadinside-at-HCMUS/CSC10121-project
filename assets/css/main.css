@@ -3132,7 +3132,7 @@ input, select, textarea {
 
 		#header .logo {
 			border: 0;
-			display: inline-block;
+			display: flex;
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
@@ -3950,3 +3950,8 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+.logo__img {
+	height: inherit;
+	width: auto;
+}
